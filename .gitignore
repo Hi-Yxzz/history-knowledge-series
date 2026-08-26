@@ -1,0 +1,41 @@
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local environment and dependencies
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Remotion and build caches
+.remotion/
+build/
+dist/
+coverage/
+
+# Downloaded, generated, and rendered media stay outside Git
+episodes/*/media/youtube/*
+episodes/*/media/archive/*
+episodes/*/media/generated/*
+episodes/*/media/audio/*
+episodes/*/output/*
+
+# Preserve empty media/output directories when scaffolded
+!episodes/*/media/youtube/.gitkeep
+!episodes/*/media/archive/.gitkeep
+!episodes/*/media/generated/.gitkeep
+!episodes/*/media/audio/.gitkeep
+!episodes/*/output/.gitkeep
+
+# Common large media formats outside the episode layout
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.mp3
+*.wav
+*.m4a
+*.aac

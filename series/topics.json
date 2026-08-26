@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "topics": [
+    {"number": 1, "id": "ancient-ice", "directory": "01-ancient-ice", "title": "古代没有冰箱，皇宫夏天的冰从哪里来", "status": "inventory"},
+    {"number": 2, "id": "ancient-alarm", "directory": "02-ancient-alarm", "title": "没有闹钟，古埃及人怎么计时和起床", "status": "inventory"},
+    {"number": 3, "id": "ancient-teeth", "directory": "03-ancient-teeth", "title": "没有牙膏和牙刷，古人怎么清洁牙齿", "status": "inventory"},
+    {"number": 4, "id": "roman-toilet", "directory": "04-roman-toilet", "title": "没有卫生纸，古罗马人如厕后怎么办", "status": "inventory"},
+    {"number": 5, "id": "roman-heating", "directory": "05-roman-heating", "title": "没有暖气，古罗马人的房间怎么取暖", "status": "inventory"},
+    {"number": 6, "id": "ancient-lighting", "directory": "06-ancient-lighting", "title": "没有电灯，古人的夜晚怎么照明", "status": "inventory"},
+    {"number": 7, "id": "ancient-food-storage", "directory": "07-ancient-food-storage", "title": "没有冰箱和保鲜膜，古人怎么保存食物", "status": "inventory"},
+    {"number": 8, "id": "roman-baths", "directory": "08-roman-baths", "title": "古罗马人为什么喜欢去公共浴场", "status": "inventory"},
+    {"number": 9, "id": "ancient-locks", "directory": "09-ancient-locks", "title": "没有防盗门，古代的锁如何工作", "status": "inventory"},
+    {"number": 10, "id": "ancient-mail", "directory": "10-ancient-mail", "title": "没有手机和快递，古代一封信如何送达", "status": "inventory"}
+  ]
+}
