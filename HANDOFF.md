@@ -24,6 +24,27 @@
 
 ## 恢复命令
 
+家里电脑第一次使用：
+
+```bash
+cd /Users/你的用户名/Desktop
+git clone https://github.com/Hi-Yxzz/history-knowledge-series.git 科普
+cd 科普
+npm test
+npm run validate
+```
+
+仓库为私有仓库，克隆时需要登录有权限的 GitHub 账号。已经克隆过时使用：
+
+```bash
+cd /Users/你的用户名/Desktop/科普
+git pull --ff-only
+npm test
+npm run validate
+```
+
+当前电脑继续工作：
+
 ```bash
 cd /Users/admin/Desktop/科普
 npm test
