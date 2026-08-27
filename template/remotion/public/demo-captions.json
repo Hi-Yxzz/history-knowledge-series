@@ -1,0 +1,9 @@
+[
+  {"text":"没有冰箱，","startMs":0,"endMs":900,"timestampMs":0,"confidence":1},
+  {"text":" 皇宫夏天的冰从哪里来？","startMs":900,"endMs":2600,"timestampMs":900,"confidence":1},
+  {"text":" 答案藏在冬天。","startMs":3000,"endMs":4400,"timestampMs":3000,"confidence":1},
+  {"text":" 人们采下天然冰，","startMs":5200,"endMs":6600,"timestampMs":5200,"confidence":1},
+  {"text":" 再把它送进地下冰窖。","startMs":6600,"endMs":8400,"timestampMs":6600,"confidence":1},
+  {"text":" 但这并不代表所有古人都能随时用冰。","startMs":9800,"endMs":12600,"timestampMs":9800,"confidence":1},
+  {"text":" 具体制度必须限定朝代与使用人群。","startMs":12600,"endMs":15100,"timestampMs":12600,"confidence":1}
+]

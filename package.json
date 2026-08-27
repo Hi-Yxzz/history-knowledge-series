@@ -4,6 +4,28 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "validate": "node scripts/validate-topics.mjs"
+    "validate": "node scripts/validate-topics.mjs",
+    "typecheck": "tsc --noEmit",
+    "remotion:studio": "remotion studio template/remotion/src/index.ts --public-dir=template/remotion/public --no-open",
+    "remotion:compositions": "remotion compositions template/remotion/src/index.ts --public-dir=template/remotion/public",
+    "media:probe": "node scripts/media-tool.mjs probe",
+    "media:trim": "node scripts/media-tool.mjs trim"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-sc": "5.3.0",
+    "@remotion/captions": "4.0.506",
+    "@remotion/cli": "4.0.506",
+    "@remotion/media": "4.0.506",
+    "@remotion/transitions": "4.0.506",
+    "mediabunny": "1.55.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.506"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.14",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
   }
 }

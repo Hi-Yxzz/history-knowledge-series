@@ -34,7 +34,7 @@ npm test
 npm run validate
 ```
 
-仓库为私有仓库，克隆时需要登录有权限的 GitHub 账号。已经克隆过时使用：
+仓库当前为公开仓库，可以直接克隆。已经克隆过时使用：
 
 ```bash
 cd /Users/你的用户名/Desktop/科普

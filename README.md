@@ -24,11 +24,23 @@
 
 - 01 古代冰窖：`inventory`，将作为第一期完整制作。
 - 02–10：`inventory`，先建立资料与素材候选库存。
+- 第一阶段视频底座：已建立 Remotion 六段式模板、JSON 字幕、真实素材接入、媒体预检与精确裁切工具。
 
 ## 检查命令
 
 ```bash
 cd /Users/admin/Desktop/科普
+npm install
 npm test
 npm run validate
+npm run typecheck
+npm run remotion:compositions
 ```
+
+## 视频模板与媒体工具
+
+- Remotion 模板位于 `template/remotion`，默认 Composition 为 `HistoryEpisodeFoundation`。
+- 普通 YouTube 视频可以进入候选和内部样片，发布前由用户联系作者确认授权。
+- 使用 `npm run media:probe -- <文件>` 检查本地视频元数据。
+- 使用 `npm run media:trim -- <输入> <输出> <开始> <结束>` 生成精确裁切片段。
+- 第三方代码和许可证记录见 `THIRD_PARTY_NOTICES.md`。

@@ -8,12 +8,14 @@ node_modules/
 .env
 .env.*
 !.env.example
+*.log
 
 # Remotion and build caches
 .remotion/
 build/
 dist/
 coverage/
+out/
 
 # Downloaded, generated, and rendered media stay outside Git
 episodes/*/media/youtube/*
@@ -28,6 +30,10 @@ episodes/*/output/*
 !episodes/*/media/generated/.gitkeep
 !episodes/*/media/audio/.gitkeep
 !episodes/*/output/.gitkeep
+
+# Remotion template media stays local
+template/remotion/public/media/*
+!template/remotion/public/media/README.md
 
 # Common large media formats outside the episode layout
 *.mp4
